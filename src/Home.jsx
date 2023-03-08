@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Home = () => {
-const value=20;
+const Home = (value) => {
+// const value=20;
   return (
     <div>
 <h1>{value}</h1>
