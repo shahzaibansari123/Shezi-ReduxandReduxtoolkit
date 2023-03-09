@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Home = (value) => {
-// const value=20;
+const value=20;
   return (
     <div>
 <h1>{value}</h1>
