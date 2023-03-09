@@ -4,10 +4,9 @@ import Home from './Home';
 
 function App() {
 
-const value=20;
   return (
     <div className="App">
-      <Home value={value} />
+      <Home />
     </div>
   );
 }
