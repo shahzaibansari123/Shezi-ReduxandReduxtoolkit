@@ -1,3 +1,7 @@
 import {createReducer} from '@reduxjs/toolkit';
 
-export const customReducer= createReducer({ },{ })
+const initialState={
+
+}
+
+export const customReducer= createReducer(initialState,{ })
