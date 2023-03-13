@@ -5,7 +5,9 @@ c:0;
 
 }
 
-temp=()=>{
+temp=(state,action)=>{
+action.c = 249;
+
 
 }
 
