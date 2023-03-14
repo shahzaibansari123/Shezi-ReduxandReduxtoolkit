@@ -5,10 +5,10 @@ c:0;
 
 }
 
-temp=(state,action)=>{
-action.c = 249;
 
 
+export const customReducer= createReducer(initialState,{ 
+increment: (state,action)=>{
+state.c += 1;
 }
-
-export const customReducer= createReducer(initialState,{ })
+})
