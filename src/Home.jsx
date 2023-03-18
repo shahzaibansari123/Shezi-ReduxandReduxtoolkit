@@ -5,8 +5,15 @@ const Home = (value) => {
 const dispatch= useDispatch();
 const value=20;
 
+const addBtn=()=>{
 
-  return (
+}
+
+const subBtn=()=>{
+
+}
+
+return (
     <div>
 <h1>{value}</h1>
 
