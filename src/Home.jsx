@@ -5,7 +5,12 @@ const Home = (value) => {
   const dispatch = useDispatch();
   const value = 20;
 
-  const addBtn = () => {};
+  const addBtn = () => {
+    dispatch({
+      type: "increment",
+
+    })
+  };
 
   const subBtn = () => {};
 
