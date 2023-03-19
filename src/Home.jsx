@@ -8,11 +8,14 @@ const Home = (value) => {
   const addBtn = () => {
     dispatch({
       type: "increment",
-
-    })
+    });
   };
 
-  const subBtn = () => {};
+  const subBtn = () => {
+    dispatch({
+      type: "decrement",
+    });
+  };
 
   return (
     <div>
