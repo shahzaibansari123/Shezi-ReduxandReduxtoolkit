@@ -1,27 +1,22 @@
-import React from 'react'
-import {useDispatch} from'@reduxjs/toolkit'
+import React from "react";
+import { useDispatch } from "@reduxjs/toolkit";
 
 const Home = (value) => {
-const dispatch= useDispatch();
-const value=20;
+  const dispatch = useDispatch();
+  const value = 20;
 
-const addBtn=()=>{
+  const addBtn = () => {};
 
-}
+  const subBtn = () => {};
 
-const subBtn=()=>{
-
-}
-
-return (
+  return (
     <div>
-<h1>{value}</h1>
+      <h1>{value}</h1>
 
-      <button>increment</button>
-<button>decrement</button>
-
+      <button onClick={addBtn}>increment</button>
+      <button onClick={subBtn}>decrement</button>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
