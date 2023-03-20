@@ -30,7 +30,9 @@ payload: 25;
 
       <button onClick={addBtn}>increment</button>
       <button onClick={subBtn}>decrement</button>
-    </div>
+    
+      <button onClick={addValueBy25}>increment by 25</button>
+</div>
   );
 };
 
