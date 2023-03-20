@@ -11,6 +11,13 @@ const Home = (value) => {
     });
   };
 
+const addValueBy25 = () => {
+    dispatch({
+      type: "incrementByValue",
+payload: 25;
+    });
+  };
+
   const subBtn = () => {
     dispatch({
       type: "decrement",
