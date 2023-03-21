@@ -24,6 +24,13 @@ payload: 25;
     });
   };
 
+const subValueBy25 = () => {
+    dispatch({
+      type: "decrementByValue",
+payload: 25;
+    });
+  };
+
   return (
     <div>
       <h1>{value}</h1>
