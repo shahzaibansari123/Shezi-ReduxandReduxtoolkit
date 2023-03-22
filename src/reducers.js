@@ -1,7 +1,7 @@
 import {createReducer} from '@reduxjs/toolkit';
 
 const initialState={
-c:0;
+c:1;
 
 }
 
@@ -26,5 +26,10 @@ state.c = action.payload;
 
 multiply: (state,action)=>{
 state.c *= 2;
+},
+
+multiplyByValue: (state,action)=>{
+state.c *= 2;
+state.c = action.payload;
 },
 })
