@@ -23,4 +23,8 @@ decrementByValue: (state,action)=>{
 state.c -= 1;
 state.c = action.payload;
 },
+
+multiply: (state,action)=>{
+state.c *= 2;
+},
 })
