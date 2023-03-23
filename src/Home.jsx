@@ -46,6 +46,8 @@ const mulBtn = () => {
     
       <button onClick={addValueBy25}>increment by 25</button>
 <button onClick={subValueBy25}>decrement by 25</button>
+
+<button onClick={mulBtn}>multiply </button>
 </div>
   );
 };
