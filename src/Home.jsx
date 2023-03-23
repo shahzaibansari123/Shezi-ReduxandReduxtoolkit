@@ -31,6 +31,12 @@ payload: 25;
     });
   };
 
+const mulBtn = () => {
+    dispatch({
+      type: "multiply",
+    });
+  };
+
   return (
     <div>
       <h1>{value}</h1>
