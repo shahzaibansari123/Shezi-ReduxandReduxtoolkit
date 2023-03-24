@@ -37,6 +37,12 @@ const mulBtn = () => {
     });
   };
 
+const divideBtn = () => {
+    dispatch({
+      type: "divide",
+    });
+  };
+
   return (
     <div>
       <h1>{value}</h1>
