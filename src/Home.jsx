@@ -54,6 +54,8 @@ const divideBtn = () => {
 <button onClick={subValueBy25}>decrement by 25</button>
 
 <button onClick={mulBtn}>multiply </button>
+<button onClick={divideBtn}>divide</button>
+
 </div>
   );
 };
