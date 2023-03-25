@@ -37,6 +37,13 @@ const mulBtn = () => {
     });
   };
 
+const mulValueBy25= () => {
+    dispatch({
+      type: "multiplyByValue",
+payload: 25,
+    });
+  };
+
 const divideBtn = () => {
     dispatch({
       type: "divide",
