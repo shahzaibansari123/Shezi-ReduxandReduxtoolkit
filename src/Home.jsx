@@ -70,6 +70,8 @@ payload: 10,
 <button onClick={mulBtn}>multiply </button>
 <button onClick={divideBtn}>divide</button>
 
+<button onClick={mulValueBy25}>Multiply by 25</button>
+
 </div>
   );
 };
