@@ -50,6 +50,13 @@ const divideBtn = () => {
     });
   };
 
+const divideValueBy10 = () => {
+    dispatch({
+      type: "divideByValue",
+payload: 10,
+    });
+  };
+
   return (
     <div>
       <h1>{value}</h1>
