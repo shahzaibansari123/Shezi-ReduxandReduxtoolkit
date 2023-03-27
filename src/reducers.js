@@ -35,4 +35,12 @@ state.c = action.payload;
 
 divide:(state,action)=>{
 state.c % 2 == 0
+},
+
+divideByValue: (state,action)=>{
+state.c % 2 == 0;
+state.c = action.payload;
+},
+
+
 })
